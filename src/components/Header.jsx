@@ -23,7 +23,9 @@ export default function Header() {
 
           <div className="language-toggle">
             <button onClick={toggleLanguage} className="lang-btn">
-              {language === "es" ? "EN" : "ES"}
+              <span className={language === "es" ? "active" : ""}>ES</span>
+              <span className="separator"> / </span>
+              <span className={language === "en" ? "active" : ""}>EN</span>
             </button>
           </div>
         </nav>

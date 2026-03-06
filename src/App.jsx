@@ -5,6 +5,7 @@ import Header from './components/Header'
 import AboutContact from './components/AboutContact'
 import Projects from './components/Projects'
 import Services from './components/Services'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<AboutContact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </LanguageProvider>
   )
