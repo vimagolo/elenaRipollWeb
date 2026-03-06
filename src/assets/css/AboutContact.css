@@ -1,0 +1,113 @@
+.about-contact {
+  width: 100%;
+  background: #ffffff;
+  padding: 80px 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* TITLES */
+
+.section-title {
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.section-title span {
+  font-weight: 300;
+}
+
+/* ABOUT */
+
+.about-section p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* CONTACT */
+
+.contact-section {
+  padding-left: 0;
+}
+
+.contact-question {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  text-align: left;
+}
+
+.contact-text {
+  font-size: 15px;
+  margin-bottom: 40px;
+  line-height: 1.65;
+  color: #333;
+  text-align: left;
+}
+
+.contact-text strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: #333;
+  text-align: left;
+}
+
+.contact-item span {
+  flex: 1;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #1a1a1a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .about-contact-container {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+
+  .about-contact {
+    padding: 80px 40px;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
